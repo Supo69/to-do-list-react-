@@ -1,0 +1,39 @@
+.deleteItem{
+    background-color: transparent;
+    border-color: red;
+    color:red;
+    border-radius:5px;
+    height:35px
+}
+
+.updateItem{
+    background-color: transparent;
+    border-color: rgb(32, 79, 222);
+    color:rgb(32, 79, 222);
+    border-radius:5px;
+    height:35px;
+    margin-bottom:5px;
+}
+
+.listItem{
+    position: relative;
+}
+
+.timeDisplay{
+    height: 1.5em;
+    width: fit-content;
+    background-color: rgb(202, 220, 225);
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.right{
+    position: absolute;
+    right: 20px;
+    top:0%;
+}
+
+.titleItem{
+    display: inline-block;
+}

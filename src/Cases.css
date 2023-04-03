@@ -1,0 +1,25 @@
+.Complete:hover{
+    background-color: greenyellow;
+}
+.Complete{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 90px;
+    height:40px
+}
+
+
+
+.TodayToDo{
+    position: relative;
+}
+
+.newItemDisplay{
+    z-index: 1000;
+}
+
+.slider{
+    width: 50%;
+    height:30px
+}

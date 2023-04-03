@@ -1,0 +1,62 @@
+body{
+  margin:0 ;
+  padding: 0%;
+}
+.App-header {
+  background-image:linear-gradient(to right, #cb0fd1,rgb(7, 195, 216)) ;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-sidebar{
+  border-right: 1px solid black ;
+  width: 200px;
+  height: 70vh;
+
+}
+
+
+
+
+.App-currentFunc{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  height: 70vh;
+  border: 1px solid black;
+  width: calc(100vw - 200px);
+  
+}
+
+.App-currentFunc > button:focus{
+  background-color:aqua;
+}
+
+.submit{
+  background-color: #cb0fd1;
+}
+
+.submit:hover{
+  background-color: #921197;
+}
+
+.newItemDisplay{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  font-size: 25px;
+  color: aliceblue;
+  background-color: #cb0fd1;
+  border: 2px solid white;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+.newItemDisplay:focus{
+  display: none;
+}
